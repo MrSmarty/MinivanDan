@@ -10,15 +10,23 @@ header {
 .logo {
 }
 
+.blocked {
+  background-color: #1f2421;
+  color: #1f2421;
+  user-select: none;
+}
+
 .birthday {
   background-color: #49a078;
   text-align: center;
-  margin: 10px;
+  margin: 50px 200px;
   padding: 20px;
 }
 
 .content {
-  padding: 10px;
+  background-color: #358471;
+  padding: 30px;
+  margin: 10px;
 }
 
 body {
@@ -29,4 +37,9 @@ html {
   font-family: "Josefin Sans";
   color: #dce1de;
   background-color: #216869;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
 }
